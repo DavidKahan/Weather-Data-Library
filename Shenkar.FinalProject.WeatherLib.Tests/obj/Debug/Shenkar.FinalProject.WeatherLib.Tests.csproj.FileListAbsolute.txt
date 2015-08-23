@@ -1,0 +1,7 @@
+C:\Users\david\Desktop\לימודים\שנה ג\שפות תכנות\FinalProject\Shenkar.FinalProject.WeatherLib.Tests\obj\Debug\Shenkar.FinalProject.WeatherLib.Tests.csprojResolveAssemblyReference.cache
+C:\Users\david\Desktop\לימודים\שנה ג\שפות תכנות\FinalProject\Shenkar.FinalProject.WeatherLib.Tests\bin\Debug\Shenkar.FinalProject.WeatherLib.Tests.dll
+C:\Users\david\Desktop\לימודים\שנה ג\שפות תכנות\FinalProject\Shenkar.FinalProject.WeatherLib.Tests\bin\Debug\Shenkar.FinalProject.WeatherLib.Tests.pdb
+C:\Users\david\Desktop\לימודים\שנה ג\שפות תכנות\FinalProject\Shenkar.FinalProject.WeatherLib.Tests\bin\Debug\FinalProject.exe
+C:\Users\david\Desktop\לימודים\שנה ג\שפות תכנות\FinalProject\Shenkar.FinalProject.WeatherLib.Tests\bin\Debug\FinalProject.pdb
+C:\Users\david\Desktop\לימודים\שנה ג\שפות תכנות\FinalProject\Shenkar.FinalProject.WeatherLib.Tests\obj\Debug\Shenkar.FinalProject.WeatherLib.Tests.dll
+C:\Users\david\Desktop\לימודים\שנה ג\שפות תכנות\FinalProject\Shenkar.FinalProject.WeatherLib.Tests\obj\Debug\Shenkar.FinalProject.WeatherLib.Tests.pdb
