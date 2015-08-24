@@ -21,7 +21,7 @@ namespace Shenkar.FinalProject.WeatherLib
         {
             try
             {
-                IWeatherDataService n = new WeatherDataServiceFactory().getWeatherDataService(1);
+                IWeatherDataService n = new WeatherDataServiceFactory().GetWeatherDataService(1);
 
                 WeatherData wd = n.GetWeatherData(new Location("Haifa", "il")); //getting weather data by location - Haifa, IL
                 if(wd != null) Console.WriteLine(wd + "\n");
