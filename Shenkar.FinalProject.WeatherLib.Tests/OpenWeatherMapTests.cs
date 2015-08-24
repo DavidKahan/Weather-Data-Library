@@ -24,7 +24,7 @@ namespace Shenkar.FinalProject.WeatherLib.Tests
         [TestMethod()]
         public void GetWeatherDataLocTest()
         {
-            IWeatherDataService n = new WeatherDataServiceFactory().getWeatherDataService(1);
+            IWeatherDataService n = new WeatherDataServiceFactory().GetWeatherDataService(1);
             WeatherData target =  n.GetWeatherData(new Location("Haifa","il"));
             WeatherData wd = GetWeatherDataForTest("http://api.openweathermap.org/data/2.5/forecast?q=haifa,il&mode=xml");
             
@@ -38,7 +38,7 @@ namespace Shenkar.FinalProject.WeatherLib.Tests
         [TestMethod()]
         public void GetWeatherDataLocNullTest()
         {
-            IWeatherDataService n = new WeatherDataServiceFactory().getWeatherDataService(1);
+            IWeatherDataService n = new WeatherDataServiceFactory().GetWeatherDataService(1);
             WeatherData target = n.GetWeatherData(new Location("0000000", ""));
             Assert.IsNull(target);
         }
@@ -49,7 +49,7 @@ namespace Shenkar.FinalProject.WeatherLib.Tests
         [TestMethod()]
         public void GetWeatherDataIdTest()
         {
-            IWeatherDataService n = new WeatherDataServiceFactory().getWeatherDataService(1);
+            IWeatherDataService n = new WeatherDataServiceFactory().GetWeatherDataService(1);
             WeatherData target = n.GetWeatherData(524901);
             WeatherData wd = GetWeatherDataForTest("http://api.openweathermap.org/data/2.5/forecast?id=524901&mode=xml");
 
@@ -63,7 +63,7 @@ namespace Shenkar.FinalProject.WeatherLib.Tests
         [TestMethod()]
         public void GetWeatherDataIdNullTest()
         {
-            IWeatherDataService n = new WeatherDataServiceFactory().getWeatherDataService(1);
+            IWeatherDataService n = new WeatherDataServiceFactory().GetWeatherDataService(1);
             WeatherData target = n.GetWeatherData(0000000);
             Assert.IsNull(target);
         }
@@ -74,7 +74,7 @@ namespace Shenkar.FinalProject.WeatherLib.Tests
         [TestMethod()]
         public void GetWeatherDataGeoTest()
         {
-            IWeatherDataService n = new WeatherDataServiceFactory().getWeatherDataService(1);
+            IWeatherDataService n = new WeatherDataServiceFactory().GetWeatherDataService(1);
             WeatherData target = n.GetWeatherData(new GeoCoordinations(35, 139));
             WeatherData wd = GetWeatherDataForTest("http://api.openweathermap.org/data/2.5/forecast?lat=35&lon=139&mode=xml");
     
@@ -88,7 +88,7 @@ namespace Shenkar.FinalProject.WeatherLib.Tests
         [TestMethod()]
         public void GetWeatherDataGeoNullTest()
         {
-            IWeatherDataService n = new WeatherDataServiceFactory().getWeatherDataService(1);
+            IWeatherDataService n = new WeatherDataServiceFactory().GetWeatherDataService(1);
             WeatherData target = n.GetWeatherData(new GeoCoordinations(10000000, 10000000));
             Assert.IsNull(target);
         }

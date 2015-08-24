@@ -16,7 +16,7 @@ namespace Shenkar.FinalProject.WeatherLib
         /// <summary>
         /// Returns weather data service object according to specified type.
         /// </summary>
-        public  IWeatherDataService getWeatherDataService(int type)
+        public  IWeatherDataService GetWeatherDataService(int type)
         {
             if (type == OPEN_WEATHER_MAP)
             {
