@@ -1,3 +1,6 @@
 C:\Users\david\Desktop\לימודים\שנה ג\שפות תכנות\FinalProject\FinalProject\bin\Debug\FinalProject.exe.config
 C:\Users\david\Desktop\לימודים\שנה ג\שפות תכנות\FinalProject\FinalProject\obj\Debug\FinalProject.exe
 C:\Users\david\Desktop\לימודים\שנה ג\שפות תכנות\FinalProject\FinalProject\obj\Debug\FinalProject.pdb
+C:\Users\david\Desktop\לימודים\שנה ג\שפות תכנות\FinalProject\FinalProject\bin\Debug\FinalProject.exe
+C:\Users\david\Desktop\לימודים\שנה ג\שפות תכנות\FinalProject\FinalProject\bin\Debug\FinalProject.pdb
+C:\Users\david\Desktop\לימודים\שנה ג\שפות תכנות\FinalProject\FinalProject\obj\Debug\Shenkar.FinalProject.WeatherLib.csprojResolveAssemblyReference.cache
